@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>Used to trigger an email to remind a user to pick up their loaner item</description>
+        <event_name>x_cdltd_loaner_req.pickUp</event_name>
+        <fired_by>Scheduled Script Execution: Loaner Item Pick Up</fired_by>
+        <queue/>
+        <suffix>pickUp</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 23:22:30</sys_created_on>
+        <sys_id>e57e785a3c87d9507f447adc6591e04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loaner_req.pickUp</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">59fb74e73c2e91107f447adc6591e0ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">59fb74e73c2e91107f447adc6591e0ec</sys_scope>
+        <sys_update_name>sysevent_register_e57e785a3c87d9507f447adc6591e04c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 23:22:30</sys_updated_on>
+        <table>x_cdltd_loaner_req_loaner_request</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">59fb74e73c2e91107f447adc6591e0ec</application>
+        <file_path/>
+        <instance_id>1ae4cdba872ad99037e243b4dabb3514</instance_id>
+        <instance_name>nowlearning-nlinst00379370-dev-001</instance_name>
+        <name>sysevent_register_e57e785a3c87d9507f447adc6591e04c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>Used to trigger an email to remind a user to pick up their loaner item</description><event_name>x_cdltd_loaner_req.pickUp</event_name><fired_by>Scheduled Script Execution: Loaner Item Pick Up</fired_by><queue/><suffix>pickUp</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-10 23:22:30</sys_created_on><sys_id>e57e785a3c87d9507f447adc6591e04c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_loaner_req.pickUp</sys_name><sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">59fb74e73c2e91107f447adc6591e0ec</sys_package><sys_policy/><sys_scope display_value="Loaner Request">59fb74e73c2e91107f447adc6591e0ec</sys_scope><sys_update_name>sysevent_register_e57e785a3c87d9507f447adc6591e04c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-10 23:22:30</sys_updated_on><table>x_cdltd_loaner_req_loaner_request</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>1146055169</payload_hash>
+        <record_name>x_cdltd_loaner_req.pickUp</record_name>
+        <reverted_from/>
+        <source>1527413d3c32d9107f447adc6591e01d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 23:22:30</sys_created_on>
+        <sys_id>eb9e385a3c87d9507f447adc6591e022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18463da1fea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 23:22:30</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>279e385ab587d9502f7548cc20df7222</update_guid>
+        <update_guid_history>279e385ab587d9502f7548cc20df7222:1146055169</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 23:23:18</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>3b4a057f0b4a480c8b772cbde1b45690</sys_id>
+        <sys_metadata>e57e785a3c87d9507f447adc6591e04c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loaner_req.pickUp</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">59fb74e73c2e91107f447adc6591e0ec</sys_package>
+        <sys_parent display_value="Loaner Request">16fef0ab3c2e91107f447adc6591e018</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">59fb74e73c2e91107f447adc6591e0ec</sys_scope>
+        <sys_scope_delete display_value="">13f2ee679a9b4951856d702015d9fc99</sys_scope_delete>
+        <sys_update_name>sysevent_register_e57e785a3c87d9507f447adc6591e04c</sys_update_name>
+        <sys_update_version display_value="sysevent_register_e57e785a3c87d9507f447adc6591e04c">eb9e385a3c87d9507f447adc6591e022</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 23:23:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
